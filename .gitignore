@@ -1,27 +1,5 @@
-# --- Dependencies (Ignores node_modules in all subfolders) ---
-node_modules/
-
-# --- Environment Variables (Ignores .env files in all subfolders) ---
+﻿node_modules/
 .env
 .env.local
-.env.development
-.env.test
-.env.production
-
-# --- Backend Specific ---
 backend/tmp/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# --- Frontend Specific (Vite/React build outputs) ---
 dist/
-dist-ssr/
-*.local
-
-# --- System & IDE Files (Optional but recommended) ---
-.DS_Store
-.vscode/
-.idea/
-
-seed-test-data.js/
